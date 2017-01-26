@@ -118,7 +118,7 @@ public static WifiConnectionFragment create(){
 
 
       WifiInfo connectionInfo = mWifiManager.getConnectionInfo();
-      onNetworkConnectionChanged(connectionInfo,connectionInfo.getBSSID().isEmpty() ? false : true);
+      onNetworkConnectionChanged(connectionInfo,(connectionInfo.getBSSID() == null || connectionInfo.getBSSID().isEmpty()) ? false : true);
 
 
       return mRootView;
@@ -152,9 +152,9 @@ public static WifiConnectionFragment create(){
 
    private void wifiStateChanged(int state){
       switch(state){
-         case JxWifiManager.STATE_ENABLED:
-            mContentView.setVisibility(View.VISIBLE);
-            break;
+         //case JxWifiManager.STATE_ENABLED:
+         //   mContentView.setVisibility(View.VISIBLE);
+         //   break;
          case JxWifiManager.STATE_DISABLED:
             mContentView.setVisibility(View.INVISIBLE);
             break;
