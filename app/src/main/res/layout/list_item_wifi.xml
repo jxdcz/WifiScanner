@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_wifi_ssid"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="6"
+        android:columnCount="2"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:text="@string/label_wifi_bssid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/label_wifi_bssid"
+            android:paddingRight="10dp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_wifi_bssid"
+            android:paddingRight="10dp"/>
+
+        <TextView
+            android:text="@string/label_wifi_capabilities"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/label_wifi_capabilities"
+            android:paddingRight="10dp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_wifi_capabilities"
+            android:paddingRight="10dp"/>
+
+        <TextView
+            android:text="@string/label_wifi_ch_width"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/label_wifi_ch_width"
+            android:paddingRight="10dp"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_wifi_ch_width"
+            android:paddingRight="10dp"/>
+
+        <TextView
+            android:text="@string/label_wifi_freq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/label_wifi_freq"
+            android:paddingRight="10dp"/>
+
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_wifi_freq"
+            android:paddingRight="10dp"/>
+
+        <TextView
+            android:text="@string/label_wifi_rssi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/label_wifi_rssi"
+            android:paddingRight="10dp"/>
+
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_wifi_rssi"
+            android:paddingRight="10dp"/>
+
+    </GridLayout>
+
+</LinearLayout>
