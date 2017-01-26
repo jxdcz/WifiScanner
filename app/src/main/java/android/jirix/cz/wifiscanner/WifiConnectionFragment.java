@@ -58,7 +58,7 @@ public static WifiConnectionFragment create(){
    }
 
    private void setVisibility(){
-      mRootView.setVisibility(mWifiManager.isWifiEnabled() ? View.VISIBLE : View.INVISIBLE);
+      mContentView.setVisibility(mWifiManager.isWifiEnabled() ? View.VISIBLE : View.INVISIBLE);
    }
 
    @Override
