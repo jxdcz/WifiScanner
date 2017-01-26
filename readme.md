@@ -1,11 +1,12 @@
 WiFi Scanner
+
 A demo app for demo purposes
 
 Features:
- - enable or disable wifi
- - scan a list of networks around and display their details
- - display a connection dialog specific to a network security type
- - connect to a specific wifi network
+ - enable or disable WiFi
+ - scan and show a list of networks around and display their details
+ - display a connection dialog specific to the network security type
+ - connect to a specific WiFi network
  - show current connection details
  - automatic externally caused updates (e.g. user turns off wifi outside the app, in-app switch toggles as well)
  - disconnect from the current network
